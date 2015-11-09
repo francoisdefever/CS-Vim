@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    color: black;
+}
+h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 54px;
+}
+h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 50px;
+}
+nav ul ol {
+    display: inline-block;
+    margin: 5%;
+    padding: 5%;
+}
+img {
+    width: 50%;
+    height: 50%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+code {
+    font-size: 18px;
+}
+#histo {
+    color: black;
+    display: inline-block;
+    font-family: "Nova Mono", sans-serif;
+}
+#start {
+    color: black;
+    font-family: "Nova Mono", sans-serif;
+    margin: 25%;
+    padding: 25%;
+}
+#advance {
+    color: black;
+    font-family: "Nova Mono", sans-serif;
+    margin: 25%;
+    padding: 25%;
+}
+#header {
+    font-size: 54px;
+    text-align: center;
+}
+#history {
+    background-color: black;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 4em;
+    margin: -20px;
+}
+#starter {
+    background-color: #FA3200;
+    font-family: "Nova Mono", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
+}
+#advanced {
+    background-color: black;
+    font-family: "Nova Mono", sans-serif;
+    color: #FA3200;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
+}
