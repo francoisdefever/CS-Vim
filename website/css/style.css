@@ -46,18 +46,18 @@ code {
     text-align: center;
 }
 #history {
-    background-color: black;
+    background-color: grey;
     font-family: "Nova Mono", sans-serif;
     font-size: 20px;
     text-align: justify;
-    color: white;
+    color: black;
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 4em;
     margin: -20px;
 }
 #starter {
-    background-color: #FA3200;
+    background-color: #00581B;
     font-family: "Nova Mono", sans-serif;
     color: white;
     font-size: 20px;
@@ -71,7 +71,7 @@ code {
 #advanced {
     background-color: black;
     font-family: "Nova Mono", sans-serif;
-    color: #FA3200;
+    color: #00581B;
     padding-left: 2em;
     padding-right: 2em;
     padding-top: 2em;
