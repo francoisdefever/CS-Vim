@@ -27,15 +27,11 @@
 
     <section id="history">
         <h2>History</h2>
-        <img src="website/pictures/logo-linux.png" />
-        <dd>Linux (pronounced Listeni/ˈlɪnəks/ LIN-əks or, less frequently, /ˈlaɪnəks/ LYN-əks) is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution.
-            The defining component of Linux is the Linux kernel, an operating system kernel first released on 5 October 1991 by Linus Torvalds. The Free Software Foundation uses the name GNU/Linux to describe the operating system, which has led to some
-            controversy.
-            <br/> Linux was originally developed as a free operating system for personal computers based on the Intel x86 architecture, but has since been ported to more computer hardware platforms than any other operating system. Thanks to its dominance on
-            smartphones, Android, which is built on top of the Linux kernel, has the largest installed base of all general-purpose operating systems. Linux, in its original form, is also the leading operating system on servers and other big iron systems
-            such as mainframe computers and supercomputers, but is used on only around 1.5% of desktop computers with Linux-based Chrome OS taking about 5% of the overall and nearly 20% of the sub-$300 notebook sales.
-            <br/> Linux also runs on embedded systems, which are devices whose operating system is typically built into the firmware and is highly tailored to the system; this includes smartphones and tablet computers running Android and other Linux derivatives,
-            TiVo and similar DVR devices, network routers, facility automation controls, televisions, video game consoles, and smartwatches.</dd>
+        <img src="website/pictures/vim-logo.png" />
+        <dd>When you press : to enter a command, or / to start a search, you often want to edit a previous command or search. That can be done using the up and down arrow keys to scroll through the history. Then you can edit a previous line. <br/>
+            :help : For example,type :s and then press the up arrow key. The last command that starts with exactly what you typed will be displayed. Scroll through the history by pressing up or down. <br/>
+            There is a history for commands, and another for searches (and more :help
+            history). You can list the entire history using the :history command (:help :history). The command :his lists the command history, and :his / lists the search history. </dd>
         <br/>
         <a href="#header">Move Up !</a>
     </section>
@@ -45,23 +41,22 @@
 
         <ul>
             <li>
-                <code>CTRL + C </code>: Stop current command</li>
+                <code>i </code>: Go to the insertion mode</li>
             <li>
-                <code>CTRL + Z</code>: Sleep program</li>
+                <code>A</code>: Add at the end of the line</li>
             <li>
-                <code>CTRL+ A</code>: Go to start of line</li>
+                <code>:q</code>: Quit</li>
             <li>
-                <code>CTRL + E</code>: Go to end of line</li>
+                <code>:q!</code>: Quit whithout saving</li>
             <li>
-                <code>CTRL + U</code>: Cut from start of line</li>
+                <code>:w</code>: Save the file</li>
             <li>
-                <code>CTRL + K</code>: Cut to end of line</li>
+                <code>:wq</code>: Quit with saving</li>
             <li>
-                <code>CTRL + R</code>: Search history</li>
+                <code>:x</code>: Saving just modifications ans quit</li>
             <li>
-                <code>!!</code>: Repeat last command</li>
+                <code>:set paste</code>: Go to paste mode</li>
             <li>
-                <code>touch file1</code>: Create file1</li>
         </ul>
         <br/>
         <a href="#header">Move Up !</a>
